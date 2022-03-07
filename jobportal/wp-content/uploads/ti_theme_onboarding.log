@@ -1,0 +1,23 @@
+[19/Mar/2021:09:49:12] (I): WordPress Instance Info:
+[19/Mar/2021:09:49:12] (I): Home URL : https://jobeejobs.com
+[19/Mar/2021:09:49:12] (I): Site URL : https://jobeejobs.com
+[19/Mar/2021:09:49:12] (I): WordPress Version : 5.7
+[19/Mar/2021:09:49:12] (I): Onboarding Version : 1.1.6
+[19/Mar/2021:09:49:12] (I): Multisite : No
+[19/Mar/2021:09:49:12] (I): Server Info : LiteSpeed
+[19/Mar/2021:09:49:12] (I): PHP Version : 7.3.21
+[19/Mar/2021:09:49:12] (I): HTTPS : Yes
+[19/Mar/2021:09:49:12] (I): PHP Max Execution Time : 300
+[19/Mar/2021:09:49:12] (I): PHP Max Input Vars : 1000
+[19/Mar/2021:09:49:12] (I): Max Upload Size : 2097152000
+[19/Mar/2021:09:49:12] (I): Plugins:
+[19/Mar/2021:09:49:12] (I): [PLUGIN] Elementor Addon Elements : v1.11 (WP Vibes)
+[19/Mar/2021:09:49:12] (I): [PLUGIN] Classic Editor : v1.6 (WordPress Contributors)
+[19/Mar/2021:09:49:12] (I): [PLUGIN] Coming Soon Page, Maintenance Mode &amp; Landing Pages by SeedProd : v6.0.11.1 (SeedProd)
+[19/Mar/2021:09:49:12] (I): [PLUGIN] Elementor : v3.1.4 (Elementor.com)
+[19/Mar/2021:09:49:12] (I): [PLUGIN] Gutenberg Blocks and Template Library by Otter : v1.6.1 (ThemeIsle)
+[19/Mar/2021:09:49:12] (I): [PLUGIN] Templates Patterns Collection : v1.1.6 (ThemeIsle)
+[19/Mar/2021:09:49:12] (I): [PLUGIN] WP Job Manager - Applications : v2.5.0 (Automattic)
+[19/Mar/2021:09:49:12] (I): [PLUGIN] WP Job Manager - Resume Manager : v1.18.1 (Automattic)
+[19/Mar/2021:09:49:12] (I): [PLUGIN] WP Job Manager : v1.35.0 (Automattic)
+[19/Mar/2021:09:49:12] (I): [PLUGIN] WPForms Lite : v1.6.5 (WPForms)

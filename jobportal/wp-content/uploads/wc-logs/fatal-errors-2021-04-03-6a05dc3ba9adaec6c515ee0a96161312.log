@@ -1,0 +1,18 @@
+2021-04-03T08:15:29+00:00 CRITICAL Uncaught Error: Call to undefined function get_job_listing_types() in D:\laragon\www\jobportal\wp-content\plugins\workscout-core\shortcodes\jobs.php:37
+Stack trace:
+#0 D:\laragon\www\jobportal\wp-includes\shortcodes.php(343): workscout_jobs(Array, '', 'jobs')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 D:\laragon\www\jobportal\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(jobs)(...', 'do_shortcode_ta...', '[jobs show_filt...')
+#3 D:\laragon\www\jobportal\wp-content\plugins\js_composer\include\helpers\helpers.php(240): do_shortcode('[jobs show_filt...')
+#4 D:\laragon\www\jobportal\wp-content\plugins\js_composer\include\templates\shortcodes\vc_column_text.php(31): wpb_js_remove_wpautop('<p>[jobs show_f...', true)
+#5 D:\laragon\www\jobportal\wp-content\plugins\js_composer\include\classes\shortcodes\core\class-wpbakeryshortcode.php(271): require('D:\\laragon\\www\\...')
+#6 D:\laragon\www\jobportal\wp-content\plugins\js_composer\include\classes\shortcodes\core\class-wpbakeryshortcode.ph in D:\laragon\www\jobportal\wp-content\plugins\workscout-core\shortcodes\jobs.php on line 37
+
+2021-04-03T08:18:57+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_limit() in D:\laragon\www\jobportal\wp-content\themes\workscout\template-jobpackages.php:119
+Stack trace:
+#0 D:\laragon\www\jobportal\wp-includes\template-loader.php(106): include()
+#1 D:\laragon\www\jobportal\wp-blog-header.php(19): require_once('D:\\laragon\\www\\...')
+#2 D:\laragon\www\jobportal\index.php(17): require('D:\\laragon\\www\\...')
+#3 {main}
+  thrown in D:\laragon\www\jobportal\wp-content\themes\workscout\template-jobpackages.php on line 119
+
