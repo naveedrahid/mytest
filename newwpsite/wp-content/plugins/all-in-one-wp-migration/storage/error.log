@@ -1,0 +1,6 @@
+Mar 19 2022 15:34:07
+{"type":8,"message":"Trying to access array offset on value of type bool","file":"D:\\laragon\\www\\newwpsite\\wp-content\\plugins\\option-tree\\includes\\class-ot-settings.php","line":396}
+
+Mar 19 2022 15:34:10
+{"type":8,"message":"Trying to access array offset on value of type bool","file":"D:\\laragon\\www\\newwpsite\\wp-content\\plugins\\option-tree\\includes\\class-ot-settings.php","line":396}
+

@@ -19,7 +19,15 @@ use Illuminate\Support\Facades\Route;
 // Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 //     return $request->user();
 // });
-Route::resources([
-    'users' => UserController::class,
-    'posts' => PostController::class,
-]);
+// Route::resources([
+//     'users' => UserController::class,
+//     'posts' => PostController::class,
+// ]);
+Route::post('/login',[UserController::class,'login'])->name('frontend_login');
+
+Route::middleware('auth:api')->group( function ()
+{
+    Route::resource('users', UserController::class)->except([
+       'create', 'edit',
+    ]);
+});

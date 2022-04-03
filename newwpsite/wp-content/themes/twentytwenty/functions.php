@@ -758,21 +758,3 @@ function twentytwenty_get_elements_array() {
 	*/
 	return apply_filters( 'twentytwenty_get_elements_array', $elements );
 }
- function create_custom_page(){
-  $page_title = 'Order List';
-  $menu_title = 'Order List';
-  $capability = 'read';
-  $slug = 'order_list';
-  $callback = 'order_list';
-  // $icon = 'dashicons-welcome-write-blog';
-  // $position = 100;
-  add_menu_page( $page_title, $menu_title, $capability, $slug, $callback);
-}
-add_action( 'admin_menu', 'create_custom_page' );
-
- function order_list(){
-  return get_template_part('templates/priceformlist');
-}
-function form_html_popup() {
-     return get_template_part('templates/priceform');
-}
